@@ -23,6 +23,15 @@
 		79B70FD018D11E4C0074BF83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B70FAC18D11E4B0074BF83 /* UIKit.framework */; };
 		79B70FD818D11E4C0074BF83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FD618D11E4C0074BF83 /* InfoPlist.strings */; };
 		79B70FDA18D11E4C0074BF83 /* EjercicioTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B70FD918D11E4C0074BF83 /* EjercicioTabTests.m */; };
+		79B70FE518D11F5D0074BF83 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B70FE418D11F5D0074BF83 /* ThirdViewController.m */; };
+		79B70FE818D125860074BF83 /* audiq3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FE718D125860074BF83 /* audiq3.jpeg */; };
+		79B70FEA18D125900074BF83 /* audiq5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FE918D125900074BF83 /* audiq5.jpeg */; };
+		79B70FEC18D125970074BF83 /* audiq7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FEB18D125970074BF83 /* audiq7.jpeg */; };
+		79B70FEE18D1259E0074BF83 /* audir8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FED18D1259E0074BF83 /* audir8.jpeg */; };
+		79B70FF018D125A50074BF83 /* auditt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FEF18D125A50074BF83 /* auditt.jpeg */; };
+		79B70FF218D125E20074BF83 /* audi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FF118D125E20074BF83 /* audi.jpeg */; };
+		79B70FF418D125FD0074BF83 /* audia5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79B70FF318D125FD0074BF83 /* audia5.jpeg */; };
+		79B70FF618D127FF0074BF83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B70FF518D127FF0074BF83 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,16 @@
 		79B70FD518D11E4C0074BF83 /* EjercicioTabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjercicioTabTests-Info.plist"; sourceTree = "<group>"; };
 		79B70FD718D11E4C0074BF83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79B70FD918D11E4C0074BF83 /* EjercicioTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjercicioTabTests.m; sourceTree = "<group>"; };
+		79B70FE318D11F5D0074BF83 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		79B70FE418D11F5D0074BF83 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		79B70FE718D125860074BF83 /* audiq3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audiq3.jpeg; path = ../../Downloads/audiq3.jpeg; sourceTree = "<group>"; };
+		79B70FE918D125900074BF83 /* audiq5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audiq5.jpeg; path = ../../Downloads/audiq5.jpeg; sourceTree = "<group>"; };
+		79B70FEB18D125970074BF83 /* audiq7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audiq7.jpeg; path = ../../Downloads/audiq7.jpeg; sourceTree = "<group>"; };
+		79B70FED18D1259E0074BF83 /* audir8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audir8.jpeg; path = ../../Downloads/audir8.jpeg; sourceTree = "<group>"; };
+		79B70FEF18D125A50074BF83 /* auditt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = auditt.jpeg; path = ../../Downloads/auditt.jpeg; sourceTree = "<group>"; };
+		79B70FF118D125E20074BF83 /* audi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audi.jpeg; path = ../../Downloads/audi.jpeg; sourceTree = "<group>"; };
+		79B70FF318D125FD0074BF83 /* audia5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audia5.jpeg; path = ../../Downloads/audia5.jpeg; sourceTree = "<group>"; };
+		79B70FF518D127FF0074BF83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B70FF618D127FF0074BF83 /* QuartzCore.framework in Frameworks */,
 				79B70FAB18D11E4B0074BF83 /* CoreGraphics.framework in Frameworks */,
 				79B70FAD18D11E4B0074BF83 /* UIKit.framework in Frameworks */,
 				79B70FA918D11E4B0074BF83 /* Foundation.framework in Frameworks */,
@@ -87,6 +107,7 @@
 		79B70F9C18D11E4B0074BF83 = {
 			isa = PBXGroup;
 			children = (
+				79B70FE618D125670074BF83 /* images */,
 				79B70FAE18D11E4B0074BF83 /* EjercicioTab */,
 				79B70FD318D11E4C0074BF83 /* EjercicioTabTests */,
 				79B70FA718D11E4B0074BF83 /* Frameworks */,
@@ -106,6 +127,7 @@
 		79B70FA718D11E4B0074BF83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79B70FF518D127FF0074BF83 /* QuartzCore.framework */,
 				79B70FA818D11E4B0074BF83 /* Foundation.framework */,
 				79B70FAA18D11E4B0074BF83 /* CoreGraphics.framework */,
 				79B70FAC18D11E4B0074BF83 /* UIKit.framework */,
@@ -125,6 +147,8 @@
 				79B70FC118D11E4B0074BF83 /* FirstViewController.m */,
 				79B70FC318D11E4B0074BF83 /* SecondViewController.h */,
 				79B70FC418D11E4B0074BF83 /* SecondViewController.m */,
+				79B70FE318D11F5D0074BF83 /* ThirdViewController.h */,
+				79B70FE418D11F5D0074BF83 /* ThirdViewController.m */,
 				79B70FC618D11E4B0074BF83 /* Images.xcassets */,
 				79B70FAF18D11E4B0074BF83 /* Supporting Files */,
 			);
@@ -158,6 +182,20 @@
 				79B70FD618D11E4C0074BF83 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79B70FE618D125670074BF83 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79B70FE718D125860074BF83 /* audiq3.jpeg */,
+				79B70FE918D125900074BF83 /* audiq5.jpeg */,
+				79B70FEB18D125970074BF83 /* audiq7.jpeg */,
+				79B70FED18D1259E0074BF83 /* audir8.jpeg */,
+				79B70FEF18D125A50074BF83 /* auditt.jpeg */,
+				79B70FF118D125E20074BF83 /* audi.jpeg */,
+				79B70FF318D125FD0074BF83 /* audia5.jpeg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +274,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B70FF218D125E20074BF83 /* audi.jpeg in Resources */,
 				79B70FBF18D11E4B0074BF83 /* Main_iPad.storyboard in Resources */,
+				79B70FEC18D125970074BF83 /* audiq7.jpeg in Resources */,
+				79B70FE818D125860074BF83 /* audiq3.jpeg in Resources */,
 				79B70FC718D11E4B0074BF83 /* Images.xcassets in Resources */,
+				79B70FEE18D1259E0074BF83 /* audir8.jpeg in Resources */,
 				79B70FBC18D11E4B0074BF83 /* Main_iPhone.storyboard in Resources */,
+				79B70FEA18D125900074BF83 /* audiq5.jpeg in Resources */,
+				79B70FF018D125A50074BF83 /* auditt.jpeg in Resources */,
+				79B70FF418D125FD0074BF83 /* audia5.jpeg in Resources */,
 				79B70FB318D11E4B0074BF83 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79B70FC518D11E4B0074BF83 /* SecondViewController.m in Sources */,
+				79B70FE518D11F5D0074BF83 /* ThirdViewController.m in Sources */,
 				79B70FB918D11E4B0074BF83 /* AppDelegate.m in Sources */,
 				79B70FC218D11E4B0074BF83 /* FirstViewController.m in Sources */,
 				79B70FB518D11E4B0074BF83 /* main.m in Sources */,
